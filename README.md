@@ -1,2 +1,5 @@
-# SeleniumWebdriver2
-This is the repository for the selenium web driver 2
+# Free Automation Learning Selenium Webdriver 2
+Hi Guys, this is Chirag Singh and this repository contains all the code which I created on the You Tube Channel " FREE AUTOMATION LEARNING ". You can download the code and run these code at your machine.
+
+You can subscribe my youtube channel. See the below link for youtube channel.
+https://www.youtube.com/channel/UCFs7BfAeJI6MtdqzTXdA9Og
