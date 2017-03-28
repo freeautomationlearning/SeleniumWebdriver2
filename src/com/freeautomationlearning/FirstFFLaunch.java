@@ -11,7 +11,7 @@ public class FirstFFLaunch {
 
 	//Launch FF
 	// Navigate google.com
-	// Search Selenium
+	// Search Selenium keyword
 	
 	// WebDriver is interface
 	WebDriver driver;
