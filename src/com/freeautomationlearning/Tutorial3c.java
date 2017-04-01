@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class FirstFFLaunch {
+public class Tutorial3c {
 
 	//Launch FF
 	// Navigate google.com
@@ -39,7 +39,7 @@ public class FirstFFLaunch {
 	
 	public static void main(String[] args) {
 	
-		FirstFFLaunch obj = new FirstFFLaunch();
+		Tutorial3c obj = new Tutorial3c();
 		obj.launchFF();
 		obj.serachKeyword("selenium");
 	}
