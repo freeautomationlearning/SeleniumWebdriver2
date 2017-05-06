@@ -53,17 +53,17 @@ public class Tutorial30 {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss_SSS");
 		Date date = new Date();
 		String name = sdf.format(date);
-		String capName = path+"\\screenshots\\"+name;
-		System.out.println(capName);
+		String capName = path+"\\screenshots\\"+name+".PNG";
 		// Code for take screenshot
 		File file = ((TakesScreenshot)d).getScreenshotAs(OutputType.FILE);
 		// Code for copy screenshot to specific location
 		try {
-			FileUtils.copyFile(file, new File(capName+".PNG"));
+			FileUtils.copyFile(file, new File(capName));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System.out.println("Screenshot will be located : "+capName);
 	}
 	/**
 	 * @param args
